@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="main">
+        <section class="section signup">
+            <img src="./Images/Background img.jpeg" alt="Home Image" class="background_img">
+            <div class="signup_container container home_container">
+                <div class="logo">
+                    <img src="./Images/miamor_logo-removebg-preview (2).png" alt="" class="logo"> 
+                </div>
+
+
+                <form class="signup_form">
+                    <input type="text" placeholder="Full Name" required>
+
+                    <select name="#" id="#">
+                        <option value="">Select Country </option>
+                        <option value="NG">Nigeria</option>
+                        <option value="US">Foreigners</option>
+                    </select>
+
+                    <div class="password_field">
+                        <input type="password" id="password" placeholder="Password" required>
+                        <span class="toggle_password" onclick="togglePassword()">👁</span>
+                    </div>
+
+                    <input type="tel" placeholder="Phone" required>
+                    <input type="text" placeholder="Access Key" required>
+
+                    <p class="access_link">
+                        <b>Don't have an Access Key?
+                            <a href="#">Click here</a>
+                        </b>
+                    </p>
+
+                    <button class="signup_btn" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
