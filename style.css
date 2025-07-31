@@ -534,7 +534,7 @@ input {
 .signup_container {
   /* padding: 20px; */
   text-align: center;
-  color: white;
+  color: rgb(19, 19, 19);
 }
 
 .signup_form input, .signup_form select{
@@ -543,7 +543,7 @@ input {
  margin: 8px 0;
  border-radius: 5px;
  border: none;
- background-color: #fdd249;
+ background-color: #f7f6f4;
 }
 
 .signup_form select{
@@ -578,7 +578,7 @@ input {
 }
 
 .signup_btn{
-  background-color: #e4e4e4;
+  background-color: #fdd249;
   font-size: 18px;
   border: none;
   padding: 12px;
