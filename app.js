@@ -53,3 +53,19 @@ function scrollHeader() {
     if(this.scrollY >= 100) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)
+
+
+// SCROLL REVEAL ANIMATION
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 300,
+    // reset: true
+})
+
+
+sr.reveal(`.home_data, .footer, .about_container`)
+sr.reveal(`.services_data`, {delay: 300 , distance: '60px', origin: 'bottom'})
+sr.reveal(`.faq_container`, {origin: 'right'})
