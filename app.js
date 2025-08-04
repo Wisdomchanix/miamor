@@ -61,11 +61,11 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2500,
-    delay: 300,
+    delay: 150,
     // reset: true
 })
 
 
 sr.reveal(`.home_data, .footer, .about_container`)
-sr.reveal(`.services_data`, {delay: 300 , distance: '60px', origin: 'bottom'})
+sr.reveal(`.services_data`, {delay: 150 , distance: '60px', origin: 'bottom'})
 sr.reveal(`.faq_container`, {origin: 'right'})
